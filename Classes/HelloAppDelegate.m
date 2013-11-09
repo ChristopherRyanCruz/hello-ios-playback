@@ -7,7 +7,7 @@
 //
 
 #import "HelloAppDelegate.h"
-#import "ConsumerCredentials.h"
+#import "ConsumerCredentials_EXAMPLE.h"
 
 static HelloAppDelegate *launchedDelegate;
 

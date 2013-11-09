@@ -35,7 +35,6 @@
 		3C4AE62713FF3B99003C118B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3C4AE62B13FF40D8003C118B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3C4AE62F13FF40E4003C118B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		3C4AE65E13FF42D7003C118B /* ConsumerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerCredentials.h; sourceTree = "<group>"; };
 		3C4AE66113FF432A003C118B /* ConsumerCredentials_EXAMPLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerCredentials_EXAMPLE.h; sourceTree = "<group>"; };
 		3C4AE6CD13FF4E6D003C118B /* HelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloViewController.h; sourceTree = "<group>"; };
 		3C4AE6CE13FF4E6D003C118B /* HelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloViewController.m; sourceTree = "<group>"; };
@@ -99,7 +98,6 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* Hello_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				3C4AE65E13FF42D7003C118B /* ConsumerCredentials.h */,
 				3C4AE66113FF432A003C118B /* ConsumerCredentials_EXAMPLE.h */,
 			);
 			name = "Other Sources";
@@ -216,7 +214,7 @@
 				INFOPLIST_FILE = "Hello-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Hello;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -235,7 +233,7 @@
 				INFOPLIST_FILE = "Hello-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Hello;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
