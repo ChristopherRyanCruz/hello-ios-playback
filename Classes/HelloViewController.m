@@ -20,7 +20,7 @@
 - (void)loadView
 {
     CGRect appFrame = [UIScreen mainScreen].applicationFrame;
-    UIView *view = [[UIView alloc] initWithFrame:appFrame];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 20, appFrame.size.width, appFrame.size.height-20)];
     [view setBackgroundColor:[UIColor whiteColor]];
 
     // Play Button
